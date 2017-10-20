@@ -55,7 +55,7 @@ To do so, follow these steps.  Alternatively, you may wish to create a new tenan
 8. To change the temporary password, log into [https://login.microsoftonline.com](https://login.microsoftonline.com) with this new user account and change the password when requested.
 
 ## Use an organizational Azure subscription
-If you have previously signed up for an Azure subscription with your organizational account, you already have a tenant!  In the [Azure Portal](https://portal.azure.com), you should find a tenant when you navigate to "More Services" and "Azure Active Directory."  You are free to use this tenant as you see fit.
+If you have previously signed up for an Azure subscription with your organizational account, you already have a tenant!  In the [Azure Portal](https://portal.azure.com), you should find one or multiple tenants when you navigate to "More Services", "Azure Active Directory" and "Domain names."  You are free to use those tenant as you see fit.
 
 ## Start from scratch
 If all of the above is gibberish to you, don't worry.  Simply visit [https://account.windowsazure.com/organization](https://account.windowsazure.com/organization) to sign up for Azure with a new organization.  Once you've completed the process, you will have your very own Azure AD tenant with the domain name you chose during sign up.  In the [Azure Portal](https://portal.azure.com), you can find your tenant by navigating to "Azure Active Directory" in the left hand nav.
