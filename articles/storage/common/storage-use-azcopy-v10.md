@@ -227,7 +227,7 @@ The URL appears in the output of this command. Your script can then download AzC
 
 | Operating system  | Command |
 |--------|-----------|
-| **Linux** | `wget -O azcopyv10.tar https://azcopyvnext.azureedge.net/release20190301/azcopy_linux_amd64_10.0.8.tar.gz tar -xf azcopyv10.tar --strip-components=1 ./azcopy` |
+| **Linux** | `curl -sD - https://aka.ms/downloadazcopy-v10-linux | sed -n 's/^Location: //p' | tr -d '\r' | xargs wget -O azcopyv10.tar`<br>`tar -xf azcopyv10.tar --strip 1` |
 | **Windows** | `Invoke-WebRequest https://azcopyvnext.azureedge.net/release20190517/azcopy_windows_amd64_10.1.2.zip -OutFile azcopyv10.zip <<Unzip here>>` |
 
 ## Use AzCopy in Storage Explorer
